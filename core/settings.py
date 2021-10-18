@@ -29,7 +29,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.app'  # Enable the inner app
+    'rest_framework',
+    'apps.app',  # Enable the inner app
+    'myapp',
 ]
 
 MIDDLEWARE = [
